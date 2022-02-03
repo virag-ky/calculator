@@ -45,7 +45,6 @@ function clearAll() {
     previousNum.innerText = "";
     number = "";
     num1 = "";
-    num2 = "";
     operator = "";
     haveDot = false;
   });

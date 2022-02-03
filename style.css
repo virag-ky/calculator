@@ -128,7 +128,7 @@ h1 {
     width: 95%;
   }
 }
-@media (min-width: 600px) and (max-width: 900px) {
+@media (min-width: 600px) and (max-width: 1000px) {
   #container,
   #display {
     width: 60%;
