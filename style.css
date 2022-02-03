@@ -73,8 +73,7 @@ h1 {
 #current {
   color: aquamarine;
   text-align: right;
-  font-size: 45px;
-  padding: 10px;
+  font-size: 2.5rem;
   height: 40px;
 }
 .font {
