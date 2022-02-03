@@ -41,8 +41,23 @@ h1 {
   align-items: center;
   cursor: pointer;
 }
-#container div:hover {
+.numbers:hover {
   outline: thin solid aquamarine;
+}
+#clear-all:hover {
+  outline: thin solid deeppink;
+}
+#delete:hover {
+  outline: thin solid deeppink;
+}
+.operators:hover {
+  outline: thin solid yellow;
+}
+#dot:hover {
+  outline: thin solid yellow;
+}
+#equal:hover {
+  outline: thin solid yellow;
 }
 #display {
   background-color: rgb(56, 55, 55);
