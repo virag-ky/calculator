@@ -122,3 +122,9 @@ h1 {
     font-size: 2.2rem;
   }
 }
+@media (max-width: 280px) {
+  #container,
+  #display {
+    width: 95%;
+  }
+}
