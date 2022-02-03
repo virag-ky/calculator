@@ -1,44 +1,56 @@
-html {
-  background-color: black;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(75, 74, 74);
+  font-family: monospace;
 }
 h1 {
-  margin: auto;
   margin-top: 50px;
   color: aquamarine;
   text-align: center;
-  font-size: 45px;
-  letter-spacing: 5px;
+  font-size: 3rem;
+}
+#calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
 }
 #container {
-  font-size: 1.6em;
-  margin: auto;
-  margin-bottom: 50px;
-  width: 25%;
-  height: 600px;
-  border: 8px solid blueviolet;
+  font-size: 1.6rem;
+  height: 50vh;
+  width: 30%;
+  border: 8px solid aquamarine;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   border-top: none;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  column-gap: 0.5rem;
+  row-gap: 0.5rem;
+  padding: 10px;
 }
 #container div {
-  border: 0.5px solid blueviolet;
-  text-align: center;
-  padding-top: 50px;
+  background-color: rgb(56, 55, 55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
 }
 #container div:hover {
-  box-shadow: 0px 0px 15px aquamarine;
+  outline: thin solid aquamarine;
 }
 #display {
-  border: 8px solid blueviolet;
+  background-color: rgb(56, 55, 55);
+  border: 8px solid aquamarine;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   height: 100px;
-  width: 25%;
-  margin: auto;
-  margin-top: 100px;
+  width: 30%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
